@@ -1,0 +1,15 @@
+#container {
+    display: grid;
+    justify-content: center;
+    border: 1px solid;
+    grid-template-rows: max-content;
+}
+.game {
+    display: grid;
+    justify-content: center;
+    border:solid;
+}
+.color {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

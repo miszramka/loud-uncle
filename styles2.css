@@ -1,0 +1,82 @@
+body {
+
+background-color: rgb(53, 51, 50);
+
+  }
+
+  .calculator {
+    display: grid;
+  
+    grid-auto-columns:auto;
+    justify-items: center;
+    align-items:stretch;
+    background-image: url(https://i.redd.it/if3ldk2w2j841.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #numberDisplay {
+    width: 14em;
+    font-size: 40px;
+    text-align: right;
+    opacity: 75%;
+  }
+
+  .operators {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 14.2em;
+    font-size: 40px;
+    height: 100%;
+    row-gap: 1px;
+  }
+
+  .numbers789 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 14.2em;
+    font-size: 40px;
+    
+  }
+
+  .numbers456 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 14.2em;
+    font-size: 40px;
+    
+  }
+  .numbers123 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 14.2em;
+    font-size: 40px;
+    
+  }
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 14.2em;
+    font-size: 40px;
+    
+  }
+  .cancel {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 14.2em;
+    font-size: 40px;
+  }
+
+
+  .button {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    opacity: 90%;
+    font-size: 100%;
+  }
+
+  .button:hover {
+    opacity: 50%;
+  }

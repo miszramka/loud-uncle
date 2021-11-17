@@ -1,0 +1,34 @@
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#display{
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px auto;
+}
+.buttons{
+    font-size: 90px;
+    text-align: center;
+}
+#startStop{
+    font-size: xx-large;
+    color:rgba(31, 97, 38, 0.438);
+}
+#stop{
+    font-size: xx-large;
+    color:rgba(112, 35, 35, 0.664);
+}
+#reset{
+    font-size: xx-large;
+    color:rgba(117, 82, 16, 0.664);
+}
+body {
+    background-color:antiquewhite
+}
+#display {
+    color:rgba(31, 97, 38, 0.438);
+}
